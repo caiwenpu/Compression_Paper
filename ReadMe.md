@@ -7,7 +7,7 @@ mathjax: true
 # Quantized Neural Network  
 ## low-precision Quantization 
 ### quantized weights only 
-每个`float`权重近似表示成几个bits  
+每个`float`权重近似表示成几个bits  
 
 
 - <span style="color:red">Matthieu-Courbariaux,Yoshua-Bengio,Jean-Pierre-David:["BinaryConnect: Training Deep Neural Networks with binary weights during propagations."][ref0] [NIPS 2015]</span>   
@@ -25,7 +25,7 @@ mathjax: true
 - <span style="color:red"> Yiwen Guo, Anbang Yao, Hao Zhao, Yurong Chen:[Network Sketching: Exploiting Binary Structure in Deep CNNs][ref22][CVPR 2017]</span> 
     * 剩余量化权重
     * 利用Bit平面之间的差值来减少冗余计算
-    * 3bit 权重 Resnet18 1% top1精度损失 fine-tuning
+    * 3bit 权重 Resnet18 1% top1精度损失 fine-tuning
 - <span style="color:red">Felix Juefei-Xu, Vishnu Naresh Boddeti, Marios Savvides:
 [Local Binary Convolutional Neural Networks.][ref23] [CVPR 2017] </span>
     * 一个三值卷积层(固定参数) + 一个1*1卷积层(科学系参数)替代一个完整卷积层
@@ -55,20 +55,20 @@ mathjax: true
 [Performance Guaranteed Network Acceleration via High-Order Residual Quantization.][ref17][ICCV 2017]</span>
     * 只在Mnist和Cifar10上做了实验
     * 一次卷积(一个卷积核)的浮点开销变为$\frac{K}{c_{in}k^2}$，K是量化阶数(一般取{1,2,3,4})
-    * Cifar10的精度降低了3%,在一个自己构造的CNN
+    * Cifar10的精度降低了3%,在一个自己构造的CNN
 - <span style="color:red">Zhaowei Cai, Xiaodong He, Jian Sun, Nuno Vasconcelos:
 [Deep Learning with Low Precision by Half-Wave Gaussian Quantization.][ref19] [CVPR 2017] </span>
     * 1bit权重，nbits输入
     * Alexnet,VGG,Resnet,GoogLenet
     * 1bit权重,2bits输入,Resnet18,10% top1损失,7%的top5损失;
 - <span style="color:red">Wei Tang, Gang Hua, Liang Wang:[How to Train a Compact Binary Neural Network with High Accuracy?][ref21][AAAI 2017]</span>
-    * 整个激活一个scale，剩余量化激活，有scale。1bit 权重，无scale。
+    * 整个激活一个scale，剩余量化激活，有scale。1bit 权重，无scale。
     * 使用PRelu作为激活函数，量化 -> 卷积 -> PReLU -> BN
     * 损失函数加入正则项 $\sum_i (1-w_i^2)$ 
 - <span style="color:red">Wei Pan,Xiaofan Lin,Cong Zhao
 [Towards Accurate Binary Convolutional Neural Network][ref18][NIPS 2017]</span>
-    * resnet18 上，5bits权重，5bits输入,4.3% top1 精度损失,3.3% top5精度损失
-    * 输入的scale在训练时固定，不用在测试时再去求
+    * resnet18 上，5bits权重，5bits输入,4.3% top1精度损失,3.3% top5精度损失
+    * 输入的scale在训练时固定，不用在测试时再去求
 
 
 [ref0]:http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations  
@@ -113,8 +113,7 @@ SPEECH RECOGNITION][ref25][ICASSP 2012]</span>
 [Learning Structured Sparsity in Deep Neural Networks.][ref8] [NIPS 2016] </span>   
     * 在Alexnet上5.1倍的CPU加速，3.1倍的GPU加速
 - <span style="color:red">Yiwen Guo, Anbang Yao, Yurong Chen:
-[Dynamic Network Surgery for Efficient DNNs.][ref9] [NIPS 2016]
-</span>
+[Dynamic Network Surgery for Efficient DNNs.][ref9] [NIPS 2016]</span>
     * 在Alexnet上17.7倍的压缩率
     * 在Lenet-5上只保留0.9%的参数
     * 比[NIPS 2015]的训练速度快7倍
@@ -147,7 +146,7 @@ activation based 剪枝  去掉一些activation小的feature map
     * $1 \times 1$ conv $\rightarrow$ 一个feature map的垂直conv $\rightarrow$ 一个feature map的水平conv-> $1\times 1$ conv
 - <span style="color:red">Cheng Tai, Tong Xiao, Yi Zhang, Xiaogang Wang, Weinan E:[CONVOLUTIONAL NEURAL NETWORKS WITH LOW- RANK REGULARIZATION][ref20][ICLR 2016] </span>
     * 扩展Jaderberg et al.(2014)
-    * 一个卷积层分解成两个1D卷积层，不适用矩阵分解的最优解调整，从头训练Alexnet得到更好的效果(需要BN)
+    * 一个卷积层分解成两个1D卷积层，不适用矩阵分解的最优解调整，从头训练Alexnet得到更好的效果(需要BN)
     * VGG16 2.75倍的压缩率
 - <span style="color:red">Jose M. Alvarez,Mathieu Salzmann:[Compression-aware Training of Deep Networks][NIPS 2017]</span>
     * Resnet50 27% 参数压缩
