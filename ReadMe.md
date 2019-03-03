@@ -213,6 +213,6 @@ NVIDIA:[PRUNING CONVOLUTIONAL NEURAL NETWORKS FOR RESOURCE EFFICIENT INFERENCE. 
 [ref20]: https://arxiv.org/abs/1511.06067
 [ref25]: http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6288897
 
-#Hardware
+# Hardware
 
 - FINN: A Framework for Fast, Scalable Binarized Neural Network Inference. [FPGA 2017]
