@@ -117,11 +117,13 @@ mathjax: true
 
 
 
-###Gradient Quantization
+
+### Gradient Quantization
 
 TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning [NIPS 2017]
 
 Value-aware Quantization for Training and Inference of Neural Networks [ECCV 2018]
+
 
 
 
