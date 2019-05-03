@@ -265,7 +265,7 @@ Value-aware Quantization for Training and Inference of Neural Networks [ECCV 201
 - ECC: Platform-Independent Energy-Constrained Deep Neural Network Compression via a Bilinear Regression Model [CVPR 2019]
 - Towards Optimal Structured CNN Pruning via Generative Adversarial Learning [CVPR 2019]
 - Cascaded Projection: End-to-End Network Compression and Acceleration [CVPR 2019]
-- LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [code][code1]
+- LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [(code)][code1]
 
 [ref6]: https://arxiv.org/abs/1506.02626
 [ref7]: https://arxiv.org/abs/1707.06342
