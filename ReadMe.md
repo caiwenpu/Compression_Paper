@@ -7,7 +7,7 @@ mathjax: true
 # Quantized Neural Network  
 ## low-precision Quantization 
 ### quantized weights only 
-每个`float`权重近似表示成几个bits  
+replace float-precision weights by low-precision or n-bit weights
 
 
 - <span style="color:red">Matthieu-Courbariaux,Yoshua-Bengio,Jean-Pierre-David:["BinaryConnect: Training Deep Neural Networks with binary weights during propagations."][ref0] [NIPS 2015]</span>   
@@ -181,18 +181,25 @@ mathjax: true
 
 
 
-### Gradient Quantization
+### Gradient Quantization && Distributed Training
 
-TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning [NIPS 2017]
+- TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning [NIPS 2017]
+- QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding [NIPS 2017]
+- Value-aware Quantization for Training and Inference of Neural Networks [ECCV 2018]
 
-Value-aware Quantization for Training and Inference of Neural Networks [ECCV 2018]
 
+### Quantize weights && activation && gradients Simultaneously
+
+- TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS [ICLR 2018]
+- Training Deep Neural Networks with 8-bit Floating Point Numbers [NIPS 2018]
 
 
 # Weight-Sharing Quantization  
 
-一组权重共享同一个权重值
+A group of weights sharing one value 
 - <soan style="color:red"> Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen:[Compressing Neural Networks with the Hashing Trick.][ref18] [ICML 2015] </span>
+- Compressing Convolutional Neural Networks in the Frequency Domain [KDD 2016]
+    * DCT transform to Frequency Domain. 
 - <span style="color:red"> Song Han, Huizi Mao, William J. Dally:
   [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding][ref13][ICLR 2016 Best paper]</span>
 - <span style="color:red"> Karen Ullrich, Edward Meeds, Max Welling:
@@ -332,8 +339,33 @@ Value-aware Quantization for Training and Inference of Neural Networks [ECCV 201
 
 # Compact Model
 
+## Efficient CNN
+
+- SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size [arXiv 2016]
+- Xception: Deep Learning with Depthwise Separable Convolutions [CVPR 2017]
+- MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [arXiv 2017]
+  * depth-wise conv & point-wise conv
+- ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices [CVPR 2018]
+  * group-wise conv & channel shuffle
+- Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions [CVPR 2018]
+- MobileNetV2: Inverted Residuals and Linear Bottlenecks [CVPR 2018]
+- ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design [ECCV 2018]
+- Sparsely Aggregated Convolutional Networks [ECCV 2018]
 - Real-Time MDNet [ECCV 2018]
 - ICNet for Real-Time Semantic Segmentation on High-Resolution Images [ECCV 2018]
+- ChannelNets: Compact and Efficient Convolutional Neural Networks via Channel-Wise Convolutions [NIPS 2018]
 - BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation [ECCV 2018]
+- HetConv: Heterogeneous Kernel-Based Convolutions for Deep CNNs [CVPR 2019]
+- Adaptively Connected Neural Networks [CVPR 2019]
+
+## Efficient RNN variants
+
+- QUASI-RECURRENT NEURAL NETWORKS [ICLR 2017]
+- Simple Recurrent Units for Highly Parallelizable Recurrence [EMNLP 2018]
+- Fully Neural Network Based Speech Recognition on Mobile and Embedded Devices [NIPS 2018]
+
+## NAS
+
+- DARTS: DIFFERENTIABLE ARCHITECTURE SEARCH [ICLR 2019]
 
 [code1]: https://github.com/cmu-enyac/LeGR
