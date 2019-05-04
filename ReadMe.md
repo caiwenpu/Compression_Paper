@@ -154,7 +154,7 @@ replace float-precision weights by low-precision or n-bit weights
     - Likely Knowledge Distill / Attention Transfer. Add Auxiliary Loss to every layer
 - HAQ: Hardware-Aware Automated Quantization [CVPR 2019]
     - Reinforce Learning to allocate different bits for different layers
-- Structured Binary Neural Networks for Accurate Image Classification and Semantic Segmentation [CVPR 2019]
+- **Structured Binary Neural Networks for Accurate Image Classification and Semantic Segmentation** [CVPR 2019]
 - Regularizing Activation Distribution for Training Binarized Deep Networks [CVPR 2019]
     - Regularizing Batch-Normlize output to the scope of [-1,1]
 - Learning to Quantize Deep Networks by Optimizing Quantization Intervals with Task Loss [CVPR 2019]
@@ -190,8 +190,10 @@ replace float-precision weights by low-precision or n-bit weights
 
 ### Quantize weights && activation && gradients Simultaneously
 
+- Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks [NIPS 2017]
 - TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS [ICLR 2018]
 - Training Deep Neural Networks with 8-bit Floating Point Numbers [NIPS 2018]
+- Training DNNs with Hybrid Block Floating Point [NIPS 2018]
 
 
 # Weight-Sharing Quantization  
@@ -226,8 +228,7 @@ A group of weights sharing one value
   [Learning both Weights and Connections for Efficient Neural Networks.][ref6][NIPS 2015]</span>  
     * 在Alexnet上剪掉89%的参数，在VGG上剪掉92.5%的参数主要是全连接层
     * 在Lenet-5上保留8%的参数
-- <span style="color:red">Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, Hai Li:
-  [Learning Structured Sparsity in Deep Neural Networks.][ref8] [NIPS 2016] </span>   
+- Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, Hai Li: [Learning Structured Sparsity in Deep Neural Networks.][ref8] [NIPS 2016]  
     * 在Alexnet上5.1倍的CPU加速，3.1倍的GPU加速
 - <span style="color:red">Yiwen Guo, Anbang Yao, Yurong Chen:
   [Dynamic Network Surgery for Efficient DNNs.][ref9] [NIPS 2016]
@@ -256,6 +257,8 @@ A group of weights sharing one value
 - Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks [IJCAI 2018]
 - A Systematic DNN Weight Pruning Framework using Alternating Direction Method of Multipliers [ECCV 2018]
 - Data-Driven Sparse Structure Selection for Deep Neural Network [ECCV 2018]
+- NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications [ECCV 2018]
+- **AMC: AutoML for Model Compression and Acceleration on Mobile Devices** [ECCV 2018]
 - Discrimination-aware Channel Pruning for Deep Neural Networks [NIPS 2018]
 - Synaptic Strength For Convolutional Neural Network [NIPS 2018]
 - Learning Sparse Neural Networks via Sensitivity-Driven Regularization [NIPS 2018]
@@ -349,7 +352,7 @@ A group of weights sharing one value
   * group-wise conv & channel shuffle
 - Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions [CVPR 2018]
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks [CVPR 2018]
-- ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design [ECCV 2018]
+- **ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design** [ECCV 2018]
 - Sparsely Aggregated Convolutional Networks [ECCV 2018]
 - Real-Time MDNet [ECCV 2018]
 - ICNet for Real-Time Semantic Segmentation on High-Resolution Images [ECCV 2018]
