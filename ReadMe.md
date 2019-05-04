@@ -187,8 +187,7 @@ A group of weights sharing one value
 - <span style="color:red"> Karen Ullrich, Edward Meeds, Max Welling:
   [Soft Weight-Sharing for Neural Network Compression.][ref12][ICLR 2017]</span>
 - TOWARDS THE LIMIT OF NETWORK QUANTIZATION [ICLR 2017]
-- <span style="color:red">Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster
-  Assignments for Compressing Deep Convolutions [ICML 2018]</span>
+- **Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster Assignments for Compressing Deep Convolutions [ICML 2018]**
 - <span style="color:red"> VARIATIONAL NETWORK QUANTIZATION [ICLR 2018]</span>
   - 优化变分下界，使用多个spike-and-slab组成的先验，使得最终权重区域几个离散的值
 - Clustering Convolutional Kernels to Compress Deep Neural Networks [ECCV 2018]
@@ -219,7 +218,7 @@ A group of weights sharing one value
 - <span style="color:red">Jian-Hao Luo, Jianxin Wu, Weiyao Lin:
   [ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression.][ref7][ICCV 2017]</span>  
   - layer by layer prune and fine-tune.
-- Learning Efficient Convolutional Networks through Network Slimming [ICCV 2017]
+- **Learning Efficient Convolutional Networks through Network Slimming** [ICCV 2017]
   - Reg BN scale with L1-norm to prune channel
 - Structured Bayesian Pruning via Log-Normal Multiplicative Noise [NIPS 2017]
 - Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon [NIPS 2017]
@@ -247,7 +246,7 @@ A group of weights sharing one value
 - Centripetal SGD for Pruning Very Deep Convolutional Networks with Complicated Structure [CVPR 2019]
 - Fully Learnable Group Convolution for Acceleration of Deep Neural Networks [CVPR 2019]
 - On Implicit Filter Level Sparsity in Convolutional Neural Networks [CVPR 2019]
-- ECC: Platform-Independent Energy-Constrained Deep Neural Network Compression via a Bilinear Regression Model [CVPR 2019]
+- **ECC: Platform-Independent Energy-Constrained Deep Neural Network Compression via a Bilinear Regression Model** [CVPR 2019]
 - Towards Optimal Structured CNN Pruning via Generative Adversarial Learning [CVPR 2019]
 - Cascaded Projection: End-to-End Network Compression and Acceleration [CVPR 2019]
 - LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [(code)][code1]
@@ -271,7 +270,7 @@ A group of weights sharing one value
 - <span style="color:red">Cheng Tai, Tong Xiao, Yi Zhang, Xiaogang Wang, Weinan E:[CONVOLUTIONAL NEURAL NETWORKS WITH LOW- RANK REGULARIZATION][ref20][ICLR 2016] </span>
     * Decompose a 2d-conv to two 1d-convs
 - Accelerating Very Deep Convolutional Networks for Classification and Detection [TPAMI 2016]
-- Tensor-Train Recurrent Neural Networks for Video Classification [ICML 2017]
+- **Tensor-Train Recurrent Neural Networks for Video Classification** [ICML 2017]
 - Domain-adaptive deep network compression [ICCV 2017]
 - Coordinating Filters for Faster Deep Neural Networks [ICCV 2017]
 - <span style="color:red">Jose M. Alvarez,Mathieu Salzmann:[Compression-aware Training of Deep Networks </span> [NIPS 2017]
@@ -282,7 +281,6 @@ A group of weights sharing one value
 - Trained Rank Pruning for Efficient Deep Neural Networks [arXiv 2018]
 - Compressing Recurrent Neural Networks with Tensor Ring for Action Recognition [AAAI 2019]
 - T-Net: Parametrizing Fully Convolutional Nets with a Single High-Order Tensor [CVPR 2019]
-- 
 
 
 [ref10]: https://arxiv.org/abs/1404.0736
@@ -294,7 +292,7 @@ A group of weights sharing one value
 
 # Knowledge Distill
 
-- Distilling the Knowledge in a Neural Network [2014]
+- **Distilling the Knowledge in a Neural Network** [2014]
 - FITNETS: HINTS FOR THIN DEEP NETS [ICLR 2015]
 - PAYING MORE ATTENTION TO ATTENTION:IMPROVING THE PERFORMANCE OF CONVOLUTIONAL
   NEURAL NETWORKS VIA ATTENTION TRANSFER [ICLR 2017]
@@ -321,16 +319,19 @@ A group of weights sharing one value
   * depth-wise conv & point-wise conv
 - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices [CVPR 2018]
   * group-wise conv & channel shuffle
-- Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions [CVPR 2018]
+- **Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions** [CVPR 2018]
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks [CVPR 2018]
 - **ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design** [ECCV 2018]
 - Sparsely Aggregated Convolutional Networks [ECCV 2018]
 - Real-Time MDNet [ECCV 2018]
 - ICNet for Real-Time Semantic Segmentation on High-Resolution Images [ECCV 2018]
-- ChannelNets: Compact and Efficient Convolutional Neural Networks via Channel-Wise Convolutions [NIPS 2018]
 - BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation [ECCV 2018]
+- Constructing Fast Network through Deconstruction of Convolution [NIPS 2018]
+- ChannelNets: Compact and Efficient Convolutional Neural Networks via Channel-Wise Convolutions [NIPS 2018]
 - HetConv: Heterogeneous Kernel-Based Convolutions for Deep CNNs [CVPR 2019]
 - Adaptively Connected Neural Networks [CVPR 2019]
+- DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation [CVPR 2019]
+- All You Need is a Few Shifts: Designing Efficient Convolutional Neural Networks for Image Classification [CVPR 2019]
 
 ## Efficient RNN variants
 
