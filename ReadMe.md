@@ -228,6 +228,7 @@ A group of weights sharing one value
 - LEARNING SPARSE NEURAL NETWORKS THROUGH L0 REGULARIZATION [ICLR 2018]
 - “Learning-Compression” Algorithms for Neural Net Pruning [CVPR 2018]
 - PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning [CVPR 2018]
+- NestedNet: Learning Nested Sparse Structures in Deep Neural Networks [CVPR 2018]
 - Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks [IJCAI 2018]
 - A Systematic DNN Weight Pruning Framework using Alternating Direction Method of Multipliers [ECCV 2018]
 - Data-Driven Sparse Structure Selection for Deep Neural Network [ECCV 2018]
@@ -237,6 +238,8 @@ A group of weights sharing one value
 - Synaptic Strength For Convolutional Neural Network [NIPS 2018]
 - Learning Sparse Neural Networks via Sensitivity-Driven Regularization [NIPS 2018]
 - Frequency-Domain Dynamic Pruning for Convolutional Neural Networks [NIPS 2018]
+- TETRIS: TilE-matching the TRemendous Irregular Sparsity [NIPS 2018]
+- Balanced Sparsity for Efficient DNN Inference on GPU [AAAI 2019]
 - Dynamic Channel Pruning: Feature Boosting and Suppression [ICLR 2019]
 - SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY [ICLR 2019]
 - ENERGY-CONSTRAINED COMPRESSION FOR DEEP NEURAL NETWORKS VIA WEIGHTED SPARSE PROJEC-
@@ -322,6 +325,7 @@ A group of weights sharing one value
   * group-wise conv & channel shuffle
 - **Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions** [CVPR 2018]
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks [CVPR 2018]
+- CondenseNet: An Efficient DenseNet using Learned Group Convolutions [CVPR 2018]
 - **ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design** [ECCV 2018]
 - Sparsely Aggregated Convolutional Networks [ECCV 2018]
 - Real-Time MDNet [ECCV 2018]
