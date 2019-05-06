@@ -190,6 +190,7 @@ A group of weights sharing one value
 - **Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster Assignments for Compressing Deep Convolutions [ICML 2018]**
 - <span style="color:red"> VARIATIONAL NETWORK QUANTIZATION [ICLR 2018]</span>
   - 优化变分下界，使用多个spike-and-slab组成的先验，使得最终权重区域几个离散的值
+- WSNet: Compact and Efficient Networks Through Weight Sampling [ICML 2018]
 - Clustering Convolutional Kernels to Compress Deep Neural Networks [ECCV 2018]
 - Coreset-Based Neural Network Compression [ECCV 2018]
 - Learning Versatile Filters for Efficient Convolutional Neural Networks [NIPS 2018]
