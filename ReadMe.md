@@ -174,6 +174,7 @@ replace float-precision weights by low-precision or n-bit weights
 - TRAINING AND INFERENCE WITH INTEGERS IN DEEP NEURAL NETWORKS [ICLR 2018]
 - Training Deep Neural Networks with 8-bit Floating Point Numbers [NIPS 2018]
 - Training DNNs with Hybrid Block Floating Point [NIPS 2018]
+- ANALYSIS OF QUANTIZED DEEP NETWORKS [ICLR 2019]
 
 
 # Weight-Sharing Quantization  
@@ -206,6 +207,7 @@ A group of weights sharing one value
 - <span style="color:red">Song Han, Jeff Pool, John Tran, William J. Dally:
   [Learning both Weights and Connections for Efficient Neural Networks.][ref6][NIPS 2015]</span>  
     * Alexnet prune 89% parameters，VGG prune 92.5% parameters
+- Fast ConvNets Using Group-wise Brain Damage [CVPR 2016] 
 - Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, Hai Li: [Learning Structured Sparsity in Deep Neural Networks.][ref8] [NIPS 2016]  
     * Real CPU/GPU accerate with Group Sparsity/
 - <span style="color:red">Yiwen Guo, Anbang Yao, Yurong Chen:
@@ -221,8 +223,10 @@ A group of weights sharing one value
   - layer by layer prune and fine-tune.
 - **Learning Efficient Convolutional Networks through Network Slimming** [ICCV 2017]
   - Reg BN scale with L1-norm to prune channel
+- Runtime Neural Pruning [NIPS 2017]
 - Structured Bayesian Pruning via Log-Normal Multiplicative Noise [NIPS 2017]
 - Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon [NIPS 2017]
+- Exploring the Regularity of Sparse Structure in Convolutional Neural Networks [NIPS 2017]
 - Recovering from Random Pruning: On the Plasticity of Deep Convolutional Neural Networks [WACV 2018]
 - RETHINKING THE SMALLER-NORM-LESS-INFORMATIVE ASSUMPTION IN CHANNEL PRUNING OF CONVOLUTION LAYERS [ICLR 2018]
 - LEARNING TO SHARE: SIMULTANEOUS PARAMETER TYING AND SPARSIFICATION IN DEEP LEARNING [ICLR 2018]
@@ -246,6 +250,7 @@ A group of weights sharing one value
 - ENERGY-CONSTRAINED COMPRESSION FOR DEEP NEURAL NETWORKS VIA WEIGHTED SPARSE PROJEC-
   TION AND LAYER INPUT MASKING [ICLR 2019]
 - **The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks** [ICLR 2019]
+- Dynamic Channel Pruning: Feature Boosting and Suppression [ICLR 2019]
 - RePr: Improved Training of Convolutional Filters [CVPR 2019]
 - Pruning Filter via Geometric Median for Deep Convolutional Neural Networks Acceleration [CVPR 2019]
 - Centripetal SGD for Pruning Very Deep Convolutional Networks with Complicated Structure [CVPR 2019]
@@ -280,11 +285,13 @@ A group of weights sharing one value
 - Coordinating Filters for Faster Deep Neural Networks [ICCV 2017]
 - <span style="color:red">Jose M. Alvarez,Mathieu Salzmann:[Compression-aware Training of Deep Networks </span> [NIPS 2017]
     * Decompose a 2d-conv to two 1d-convs, add activaiton between two layers
+- DCFNet: Deep Neural Network with Decomposed Convolutional Filters [ICML 2018]
 - Learning Compact Recurrent Neural Networks with Block-Term Tensor Decomposition [CVPR 2018]
 - Wide Compression: Tensor Ring Nets [CVPR 2018]
 - Extreme Network Compression via Filter Group Approximation [ECCV 2018]
 - Trained Rank Pruning for Efficient Deep Neural Networks [arXiv 2018]
 - Compressing Recurrent Neural Networks with Tensor Ring for Action Recognition [AAAI 2019]
+- ROTDCF: DECOMPOSITION OF CONVOLUTIONAL FILTERS FOR ROTATION-EQUIVARIANT DEEP NETWORKS [ICLR 2019]
 - T-Net: Parametrizing Fully Convolutional Nets with a Single High-Order Tensor [CVPR 2019]
 
 
