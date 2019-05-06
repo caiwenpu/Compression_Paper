@@ -241,6 +241,7 @@ A group of weights sharing one value
 - SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY [ICLR 2019]
 - ENERGY-CONSTRAINED COMPRESSION FOR DEEP NEURAL NETWORKS VIA WEIGHTED SPARSE PROJEC-
   TION AND LAYER INPUT MASKING [ICLR 2019]
+- **The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks** [ICLR 2019]
 - RePr: Improved Training of Convolutional Filters [CVPR 2019]
 - Pruning Filter via Geometric Median for Deep Convolutional Neural Networks Acceleration [CVPR 2019]
 - Centripetal SGD for Pruning Very Deep Convolutional Networks with Complicated Structure [CVPR 2019]
