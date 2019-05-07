@@ -348,7 +348,9 @@ A group of weights sharing one value
 
 ## Efficient RNN variants
 
+- LightRNN: Memory and Computation-Efficient Recurrent Neural Networks [NIPS 2016]
 - QUASI-RECURRENT NEURAL NETWORKS [ICLR 2017]
+- COMPRESSING WORD EMBEDDINGS VIA DEEP COMPOSITIONAL CODE LEARNING [ICLR 2018]
 - Simple Recurrent Units for Highly Parallelizable Recurrence [EMNLP 2018]
 - Fully Neural Network Based Speech Recognition on Mobile and Embedded Devices [NIPS 2018]
 
