@@ -345,6 +345,7 @@ A group of weights sharing one value
 - Adaptively Connected Neural Networks [CVPR 2019]
 - DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation [CVPR 2019]
 - All You Need is a Few Shifts: Designing Efficient Convolutional Neural Networks for Image Classification [CVPR 2019]
+- Searching for MobileNetV3 [arXiv 2019]
 
 ## Efficient RNN variants
 
