@@ -68,7 +68,7 @@ replace float-precision weights by low-precision or n-bit weights
 
 - Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation [CVPR 2019]
 
-
+- Rate Distortion For Model Compression: From Theory To Practice [ICML 2019]
 
 <!-- more -->
 
@@ -190,7 +190,6 @@ A group of weights sharing one value
 - TOWARDS THE LIMIT OF NETWORK QUANTIZATION [ICLR 2017]
 - **Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster Assignments for Compressing Deep Convolutions [ICML 2018]**
 - <span style="color:red"> VARIATIONAL NETWORK QUANTIZATION [ICLR 2018]</span>
-  - 优化变分下界，使用多个spike-and-slab组成的先验，使得最终权重区域几个离散的值
 - WSNet: Compact and Efficient Networks Through Weight Sampling [ICML 2018]
 - Clustering Convolutional Kernels to Compress Deep Neural Networks [ECCV 2018]
 - Coreset-Based Neural Network Compression [ECCV 2018]
@@ -259,7 +258,10 @@ A group of weights sharing one value
 - **ECC: Platform-Independent Energy-Constrained Deep Neural Network Compression via a Bilinear Regression Model** [CVPR 2019]
 - Towards Optimal Structured CNN Pruning via Generative Adversarial Learning [CVPR 2019]
 - Cascaded Projection: End-to-End Network Compression and Acceleration [CVPR 2019]
+- Importance Estimation for Neural Network Pruning [CVPR 2019]
+- SeerNet: Predicting Convolutional Neural Network Feature-Map Sparsity through Low-Bit Quantization [CVPR 2019]
 - LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [(code)][code1]
+- Approximated Oracle Filter Pruning for Destructive CNN Width Optimization [ICML 2019]
 
 [ref6]: https://arxiv.org/abs/1506.02626
 [ref7]: https://arxiv.org/abs/1707.06342
@@ -336,6 +338,7 @@ A group of weights sharing one value
 - CondenseNet: An Efficient DenseNet using Learned Group Convolutions [CVPR 2018]
 - **ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design** [ECCV 2018]
 - Sparsely Aggregated Convolutional Networks [ECCV 2018]
+- Convolutional Networks with Adaptive Inference Graphs [ECCV 2018]
 - Real-Time MDNet [ECCV 2018]
 - ICNet for Real-Time Semantic Segmentation on High-Resolution Images [ECCV 2018]
 - BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation [ECCV 2018]
