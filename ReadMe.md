@@ -262,6 +262,7 @@ A group of weights sharing one value
 - SeerNet: Predicting Convolutional Neural Network Feature-Map Sparsity through Low-Bit Quantization [CVPR 2019]
 - LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [(code)][code1]
 - Approximated Oracle Filter Pruning for Destructive CNN Width Optimization [ICML 2019]
+- Collaborative Channel Pruning for Deep Networks [ICML 2019]
 
 [ref6]: https://arxiv.org/abs/1506.02626
 [ref7]: https://arxiv.org/abs/1707.06342
