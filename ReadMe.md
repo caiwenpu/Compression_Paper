@@ -65,10 +65,10 @@ replace float-precision weights by low-precision or n-bit weights
       * Add BatchNorm to LSTM for Quantized weights
 
 - Projection Convolutional Neural Networks for 1-bit CNNs via Discrete Back Propagation [AAAI 2019]
-
 - Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation [CVPR 2019]
-
 - Rate Distortion For Model Compression: From Theory To Practice [ICML 2019]
+- Same, Same But Different - Recovering Neural Network Quantization Error Through Weight Factorization [ICML 2019]
+
 
 <!-- more -->
 
@@ -130,7 +130,6 @@ replace float-precision weights by low-precision or n-bit weights
 - A Main/Subsidiary Network Framework for Simplifying Binary Neural Networks [CVPR 2019]
     - Prune BNN with mask trained 
 - Training Quantized Network with Auxiliary Gradient Module [arXiv 2019]
-
     - Likely Knowledge Distill / Attention Transfer. Add Auxiliary Loss to every layer
 - HAQ: Hardware-Aware Automated Quantization [CVPR 2019]
     - Reinforce Learning to allocate different bits for different layers
@@ -141,7 +140,7 @@ replace float-precision weights by low-precision or n-bit weights
     - Learn Quantized funtions intervals
 - Matrix and tensor decompositions for training binary neural networks [arXiv 2019]
     - Add capacity of float weight to get more accurate binary weight
-
+- Improving Neural Network Quantization without Retraining using Outlier Channel Splitting [ICML 2019]
 
 
 [ref0]:http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
@@ -351,6 +350,7 @@ A group of weights sharing one value
 - All You Need is a Few Shifts: Designing Efficient Convolutional Neural Networks for Image Classification [CVPR 2019]
 - Searching for MobileNetV3 [arXiv 2019]
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [ICML 2019]
+- Efficient On-Device Models using Neural Projections [ICML 2019]
 
 ## Efficient RNN variants
 
