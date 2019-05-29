@@ -323,6 +323,7 @@ A group of weights sharing one value
 - Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons [AAAI 2019]
 - Relational Knowledge Distillation [CVPR 2019]
 - Snapshot Distillation: Teacher-Student Optimization in One Generation [CVPR 2019]
+- LIT: Learned Intermediate Representation Training for Model Compression [ICML 2019]
 
 # Compact Model
 
