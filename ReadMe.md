@@ -194,6 +194,7 @@ A group of weights sharing one value
 - Coreset-Based Neural Network Compression [ECCV 2018]
 - Learning Versatile Filters for Efficient Convolutional Neural Networks [NIPS 2018]
 - Exploiting Kernel Sparsity and Entropy for Interpretable CNN Compression [CVPR 2019]
+- LegoNet: Efficient Convolutional Neural Networks with Lego Filters [ICML 2019]
 
 [ref12]: https://arxiv.org/abs/1702.04008
 [ref13]: https://arxiv.org/abs/1510.00149
