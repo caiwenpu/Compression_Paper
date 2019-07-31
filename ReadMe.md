@@ -263,6 +263,7 @@ A group of weights sharing one value
 - LeGR: Filter Pruning via Learned Global Ranking [arXiv 2019] [(code)][code1]
 - Approximated Oracle Filter Pruning for Destructive CNN Width Optimization [ICML 2019]
 - Collaborative Channel Pruning for Deep Networks [ICML 2019]
+- MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning [ICCV 2019]
 
 [ref6]: https://arxiv.org/abs/1506.02626
 [ref7]: https://arxiv.org/abs/1707.06342
@@ -313,6 +314,7 @@ A group of weights sharing one value
   NEURAL NETWORKS VIA ATTENTION TRANSFER [ICLR 2017]
 - Mimicking Very Efficient Network for Object Detection [CVPR 2017]
 - A Gift from Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning [CVPR 2017]
+- DarkRank: Accelerating Deep Metric Learning via Cross Sample Similarities Transfer [AAAI 2018]
 - Deep Mutual Learning [CVPR 2018]
 - Data Distillation: Towards Omni-Supervised Learning [CVPR 2018]
 - Quantization Mimic: Towards Very Tiny CNNfor Object Detection [ECCV 2018]
@@ -323,7 +325,10 @@ A group of weights sharing one value
 - Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons [AAAI 2019]
 - Relational Knowledge Distillation [CVPR 2019]
 - Snapshot Distillation: Teacher-Student Optimization in One Generation [CVPR 2019]
+- Learning Metrics from Teachers: Compact Networks for Image Embedding [CVPR 2019]
 - LIT: Learned Intermediate Representation Training for Model Compression [ICML 2019]
+- Correlation Congruence for Knowledge Distillation [ICCV 2019]
+- Similarity-Preserving Knowledge Distillation [ICCV 2019]
 
 # Compact Model
 
@@ -353,6 +358,7 @@ A group of weights sharing one value
 - Searching for MobileNetV3 [arXiv 2019]
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [ICML 2019]
 - Efficient On-Device Models using Neural Projections [ICML 2019]
+- Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution [ICCV 2019]
 
 ## Efficient RNN variants
 
