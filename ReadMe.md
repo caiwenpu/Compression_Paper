@@ -129,6 +129,7 @@ replace float-precision weights by low-precision or n-bit weights
     - How to Train BNN. Hyper-Parameter settings
 - A Main/Subsidiary Network Framework for Simplifying Binary Neural Networks [CVPR 2019]
     - Prune BNN with mask trained 
+- Binary Ensemble Neural Network: More Bits per Network or More Networks per Bit? [CVPR 2019]
 - Training Quantized Network with Auxiliary Gradient Module [arXiv 2019]
     - Likely Knowledge Distill / Attention Transfer. Add Auxiliary Loss to every layer
 - HAQ: Hardware-Aware Automated Quantization [CVPR 2019]
@@ -140,7 +141,10 @@ replace float-precision weights by low-precision or n-bit weights
     - Learn Quantized funtions intervals
 - Matrix and tensor decompositions for training binary neural networks [arXiv 2019]
     - Add capacity of float weight to get more accurate binary weight
+- Learning low-precision neural networks without Straight-Through Estimator (STE) [IJCAI 2019]
 - Improving Neural Network Quantization without Retraining using Outlier Channel Splitting [ICML 2019]
+- Differentiable Soft Quantization: Bridging Full-Precision and Low-Bit Neural Networks [ICCV 2019]
+
 
 
 [ref0]:http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
@@ -264,6 +268,7 @@ A group of weights sharing one value
 - Approximated Oracle Filter Pruning for Destructive CNN Width Optimization [ICML 2019]
 - Collaborative Channel Pruning for Deep Networks [ICML 2019]
 - MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning [ICCV 2019]
+- Co-Evolutionary Compression for Unpaired Image Translation [ICCV 2019]
 
 [ref6]: https://arxiv.org/abs/1506.02626
 [ref7]: https://arxiv.org/abs/1707.06342
@@ -324,11 +329,13 @@ A group of weights sharing one value
 - Paraphrasing Complex Network: Network Compression via Factor Transfer [NIPS 2018]
 - Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons [AAAI 2019]
 - Relational Knowledge Distillation [CVPR 2019]
+- Knowledge Distillation via Instance Relationship Graph [CVPR 2019]
 - Snapshot Distillation: Teacher-Student Optimization in One Generation [CVPR 2019]
 - Learning Metrics from Teachers: Compact Networks for Image Embedding [CVPR 2019]
 - LIT: Learned Intermediate Representation Training for Model Compression [ICML 2019]
 - Correlation Congruence for Knowledge Distillation [ICCV 2019]
 - Similarity-Preserving Knowledge Distillation [ICCV 2019]
+- Learning Lightweight Lane Detection CNNs by Self Attention Distillation [ICCV 2019]
 
 # Compact Model
 
@@ -359,6 +366,7 @@ A group of weights sharing one value
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [ICML 2019]
 - Efficient On-Device Models using Neural Projections [ICML 2019]
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution [ICCV 2019]
+- ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks [ICCV 2019]
 
 ## Efficient RNN variants
 
